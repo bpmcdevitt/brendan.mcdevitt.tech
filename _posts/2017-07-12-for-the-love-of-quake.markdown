@@ -20,7 +20,7 @@ Fast forward about a year or two and I finally found Quake 3 CPMA. This was a su
 
 {% include youtubePlayer.html id="Q3ui0hz6sm0" %}
 
-Quake is one of the only games where you can have a slight skill gap between two players, and the score would not reflect this minor difference. It would be a rape of 40 to 0, even though player A is only slightly better than player B. This hardcore aspect is what kept me playing the game. Nobody likes to be raped 40 to 0 and when that would happen to me, it would really push me to try to improve and learn from my mistakes. 
+Quake is one of the only games where you can have a slight skill gap between two players, and the score would not reflect this minor difference. It would be a score of 40 to 0, even though player A is only slightly better than player B. This hardcore aspect is what kept me playing the game. Nobody likes to be owned 40 to 0 and when that would happen to me, it would really push me to try to improve and learn from my mistakes. 
 
 Quake Champions is id softwares newest implementation of the series. It is currently in beta stages and I have been having fun with it. It is a combination of all of the movement styles of the previous Quake games. Really fun to play. I recommend anyone who is curious about deathmatch games to pick this up and enter into the arena to test your skills among the most skilled fps players. I leave you with a quad damage run that I recently made in Quake Champions. Enjoy.
 
