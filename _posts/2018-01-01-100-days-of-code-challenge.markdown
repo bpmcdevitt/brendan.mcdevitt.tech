@@ -10,3 +10,23 @@ my new year with something I have just come across: [100daysofcode](http://100da
 I have forked the 100 days of code repo from github and am using the log to
 track my daily progress. It will be fun, and it will be a great way to keep me
 accountable for building my python knowledge.
+
+Day 1:
+```python
+def gen_ssh_keypair():
+    """ Generate an RSA private / public keypair """
+    key = RSA.generate(2048)
+
+    # generate private key - output to file
+    with open('rsa_privkey.pem', 'wb') as privkey:
+        privkey.write(key.exportKey())
+
+    # generate public key - output to file
+    with open('rsa_pubkey.pem', 'wb') as pubkey:
+        pubkey.write(key.publickey().exportKey())
+
+    return 0
+
+
+gen_ssh_keypair()
+```
