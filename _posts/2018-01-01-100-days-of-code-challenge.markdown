@@ -28,6 +28,15 @@ def gen_ssh_keypair():
 
     return 0
 
-
-gen_ssh_keypair()
 ```
+
+Day 2:
+Today we are going to make a Discord chat bot. Bots have always been interesting to me.
+Trying to make a computer program behave like a human sounds like a fun
+challenge, and a great way to play some fun pranks on my friends on Discord.
+So far, I have sketched up the initial framework in my python program using the
+discordpy library. I will need to learn more about the following:
+- asyncio
+- coroutines
+These seem to be two main concepts that this library uses, and it will help aid
+my skills in the future when making programs that focus on performance.
