@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "security+ notes p2"
+date:  2017-08-23
+categories: certifications
+---
+
 ## LDAP
 - everything is done in plaintext
 - there is a TLS version of it. LDAPS

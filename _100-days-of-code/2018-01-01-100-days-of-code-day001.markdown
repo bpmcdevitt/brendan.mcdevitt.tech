@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "100-days-of-code-challenge"
+title:  "day 1"
 date:  2018-01-01
 categories: programming
 ---
+# 100 Days of Code
 
 With a brand new year, comes a fresh start, a clean slate. I am going to begin
 my new year with something I have just come across: [100daysofcode](http://100daysofcode.com/) challenge. 
@@ -12,8 +13,9 @@ track my daily progress. It will be fun, and it will be a great way to keep me
 accountable for building my python knowledge. Here is an example snippet from
 the code I did for day 1.
 
-Day 1:
-```python
+### Day 1:
+{% highlight python %}
+
 def gen_ssh_keypair():
     """ Generate an RSA private / public keypair """
     key = RSA.generate(2048)
@@ -27,16 +29,5 @@ def gen_ssh_keypair():
         pubkey.write(key.publickey().exportKey())
 
     return 0
-
-```
-
-Day 2:
-Today we are going to make a Discord chat bot. Bots have always been interesting to me.
-Trying to make a computer program behave like a human sounds like a fun
-challenge, and a great way to play some fun pranks on my friends on Discord.
-So far, I have sketched up the initial framework in my python program using the
-discordpy library. I will need to learn more about the following:
-- asyncio
-- coroutines
-These seem to be two main concepts that this library uses, and it will help aid
-my skills in the future when making programs that focus on performance.
+    
+{% endhighlight %}

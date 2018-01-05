@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "day 3"
+date:  2018-01-03
+categories: programming
+---
+
+# 100 Days of Code
+
+### Day 3:
+Today I could not find time to work on the coding aspect of the bot, but I did
+grab some audio recordings that I need for the bot. I am mainly making this bot
+to prank my friends in discord with voice recordings of funny moments that
+occur in discord. I am going to make it queryable via prepending commands with
+a !. I still did get to code today for work. I am working on some stuff in
+python and I have to write unit tests, so I wrote a test for a couple of
+functions

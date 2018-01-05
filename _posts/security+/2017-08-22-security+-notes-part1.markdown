@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "security+ notes p1"
+date:  2017-08-22
+categories: certifications
+---
 # Security Threats and Controls
 
 ## CIA Triade 
@@ -6,6 +12,8 @@ Data needs to be the following:
 - Integrity
 - Availability
 
+
+
 ## Security Policy Steps
 - obtain support & committment for policy proposed throughout entire org
 - analyze risks to security within the org that the policy proposes
@@ -13,9 +21,13 @@ Data needs to be the following:
   the org to recover from losses
 - review, test, and update procedures continually. continued compliance.
 
+
+
 ## Security Controls
 - National Institute of Standards and Technolog (NIST)
 - Federal Information Processing Standards [(FIPS)](http://csrc.nist.gov/publications/PubsFIPS.html)
+
+
 
 ## Control Types
 - Fips 200 (Minimum Security Requirements)
@@ -27,6 +39,8 @@ Data needs to be the following:
   Security, Risk Assessment, Systems and Services Aquisition, System and
   Communications Protection, System and Information Integrity, Program
   Management
+
+
 
 ## Physical Security Control Types
 - Administrative - controls that determine the way people act, including
@@ -46,11 +60,15 @@ Data needs to be the following:
   function of the system through some other means, such as using data backup or
   an alternative site. 
 
+
+
 ## Access Control and ACL 
 - Identification
 - Authentication
 - Authorization
 - Accounting
+
+
 
 ## Formal Access Control Models
 - DAC - Discretionary Access Control - The owner is granted full control over
@@ -69,6 +87,8 @@ Data needs to be the following:
  - sha-2, up to 512 bits
  - md5, 128 bits
  - ripemd-160 - 160 bits
+
+
 
 ##  Stream ciphers and block ciphers
  - 3DES / Triple DES - block cipher - 56 bit key - 64 bit blocks

@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "security+ notes p3"
+date:  2017-08-24
+categories: certifications
+---
+
 ## Host Security
 - Common Criteria (CC)
 - Security Target (ST)
@@ -99,5 +106,3 @@ Do you have backups of your backups?
 - is there an offsite backup solution in place? 
 - make you sure that you are testing backups to make sure you can restore
   everything from them 
- 
-
