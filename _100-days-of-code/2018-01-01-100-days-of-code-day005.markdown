@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "day 5"
+date:  2018-01-05
+categories: programming
+---
+
+# 100 Days of Code
+
+### Day 5:
+Today I did not have the energy to do anything with my discord bot. I will work
+on that tomorrow and sunday. I mainly just did some hacker rank problems
+involving strings. Here is a post someone on hacker rank who is much more
+clever than me for validating any characters in strings:
+
+```python
+str = raw_input()
+print any(c.isalnum()  for c in str)
+print any(c.isalpha() for c in str)
+print any(c.isdigit() for c in str)
+print any(c.islower() for c in str)
+print any(c.isupper() for c in str)
+```
+
+that will return True or False if ANY of the characters contain alphanumberic,
+alphabetical, a digit, lowercase, or uppercase. A nice little shortcut that I
+will remember.
