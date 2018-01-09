@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "day 7"
+date:  2018-01-08
+categories: programming
+---
+
+# 100 Days of Code
+
+### Day 7:
+Took a break from coding on Sunday. Needed to take care of some things around
+my apartment instead. Today, I ended up programming for a few hours while at
+work. I learned more about initialization of objects and about unpacking
+tuples.
+
