@@ -86,3 +86,4 @@ class NmapUtility(nmap.PortScanner):
         return self.scan(self.hostname, portrange,
                          arguments='-sV --script=banner')
 
+```
