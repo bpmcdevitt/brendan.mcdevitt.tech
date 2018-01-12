@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "day 10"
+date:  2018-01-11
+categories: programming
+---
+
+# 100 Days of Code
+
+### Day 10:
+Made fibonacci programs from tutorials I found on youtube. One that introduces
+the concept of memoization or storing results of recent function calls to
+improve the speed of the recursive function. Also a basic bubblesort program in python
+that I found from another tutorial. This is very basic stuff but I want to make sure I
+know as much foundational knowledge as I can. Socrataca on youtube is a great
+channel with lots of math and science themed videos. That is where I found
+these tutorials. Here is a
+[link](https://www.youtube.com/watch?v=Qk0zUZW-U_M&list=PLi01XoE8jYohWFPpC17Z-wWhPOSuh8Er-&index=18)
+to the python video on the fibonacci sequence.

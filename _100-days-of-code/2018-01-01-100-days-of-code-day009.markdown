@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "day 9"
+date:  2018-01-10
+categories: programming
+---
+
+# 100 Days of Code
+
+### Day 9:
+Going to be writing some more add-ons to nmap module. Also, added an example of
+a bubble sort algorithm in python, and accompanied it with a wikipedia
+description of the algorithm. I am going to be looking into implementing
+another type of sorting algorithm today.
