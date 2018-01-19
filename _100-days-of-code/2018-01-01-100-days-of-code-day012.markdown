@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "day 12"
+date:  2018-01-18
+categories: programming
+---
+
+# 100 Days of Code
+
+### Day 12:
+Today I made basic aws scripts that interact with ec2 and s3. I am going to look
+into designing programs that will migrate my existing OVH vps using a
+combination of the API they provide, unix tools like rsync, and the AWS API. I
+need to get better at interacting with boto3 so this will be perfect.
+interacting with API's is fun and I really enjoy working with the HTTP
+protocol. I also made a cronjob on my vps that will run a git pull of my
+brendan.mcdevitt.tech repo, and jekyll is in watch mode so it will always stay
+up to date as long as I am pushing to git.
+
