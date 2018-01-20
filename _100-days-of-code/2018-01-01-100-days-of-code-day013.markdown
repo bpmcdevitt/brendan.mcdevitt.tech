@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "day 12"
+title:  "day 13"
 date:  2018-01-19
 categories: programming
 ---
