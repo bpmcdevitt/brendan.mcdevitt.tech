@@ -16,6 +16,6 @@ be really trying to learn. here are some links to good resources:
 - [rtfm](http://man7.org/linux/man-pages/man1/hexdump.1.html)
 - [wikipedia - hexdump](https://en.wikipedia.org/wiki/Hex_dump)
 - [wikipedia - hexadecimal](https://en.wikipedia.org/wiki/Hexadecimal)
-- [practice color codes](https://yizzle.com/whatthehex/)
+- [practice color codes](http://yizzle.com/whatthehex/)
 - [making sense of hexadump](https://www.suse.com/c/making-sense-hexdump/)
 - [hexadecimal numbers](https://www.electronics-tutorials.ws/binary/bin_3.html)
