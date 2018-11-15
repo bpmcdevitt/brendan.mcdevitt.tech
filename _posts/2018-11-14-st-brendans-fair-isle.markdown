@@ -2,8 +2,9 @@
 layout: post
 title:  "st brendans fair isle"
 date:  2018-11-14
-categories: song lyrics
+categories: misc
 ---
+{% include youtubePlayer.html id="DndF93ztvUQ" %}
 
 ```
 St. Brendan's Fair Isle 
@@ -63,5 +64,3 @@ We sailed every spot where a sailor could be.
 In forty-four days we sailed ten million miles,
 We sailed...
 ```
-
-{% include youtubePlayer.html id="DndF93ztvUQ" %}

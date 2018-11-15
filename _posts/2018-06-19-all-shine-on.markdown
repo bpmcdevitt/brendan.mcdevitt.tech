@@ -2,7 +2,7 @@
 layout: post
 title:  "all shine on"
 date:  2018-06-19
-categories: song lyrics
+categories: misc
 ---
 ```
 Instant Karma's gonna get you
