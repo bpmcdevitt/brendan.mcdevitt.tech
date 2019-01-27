@@ -12,7 +12,7 @@ Centos 7 is used as template for most of the virtual machines I make. This is be
 managers is straight forward. It really does not make a difference though to me personally. I just want to be able to spin vms up quick and I am most familiar with this type of os from my days working in system administration at various web hosts.
 
 Squid has always been something that I wanted to setup but have never gotten around to.
-So I started very basic and lightweight. The default configuration with squid is there to set you up with an unauthenticated proxy that listens locally on the network. Here are the links to the files so you want a libvirt based squid setup. You will have to modify the `Vagrantfile` slightly if you want to use virtualbox or
+So I started very basic and lightweight. The default configuration with squid is there to set you up with an unauthenticated proxy that listens locally on the network. Here are the links to the files. These are currently for a libvirt based setup. You will have to modify the `Vagrantfile` slightly if you want to use virtualbox or
 not use a bridge as a second network interface. Also feel free to modify the resources suited to your homelabs resource limitations (cpus/ram). I leave that to you. Proxy all
 the HTTP connections, for science!
 
