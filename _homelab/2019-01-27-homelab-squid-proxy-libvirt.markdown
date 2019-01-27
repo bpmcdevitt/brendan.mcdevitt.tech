@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: homelab
 title:  "homelab - squid proxy"
 date:  2019-01-27
 categories: homelab
@@ -19,17 +19,15 @@ the HTTP connections, for science!
 Also, for a fun bonus read that inspired me to read up and learn more about
 squid in particular is this really interesting write-up by Anthony Ferrara on how he hacked stackoverflow. Also some very good info on the `X-Forwarded-For` http header. I won't spoil how he gains admin access. Here is a [link](https://blog.ircmaxell.com/2012/11/anatomy-of-attack-how-i-hacked.html) to the writeup.
 * Code - [centos_squid_proxy](https://git.mcdevitt.tech/bpmcdevitt/homelab_scripts/tree/master/vagrant/centos_squid_proxy)
-* Squid - http://www.squid-cache.org/Doc
-* Vagrant - https://www.vagrantup.com
-* X-Forwaded-For https://en.wikipedia.org/wiki/X-Forwarded-For
+* Squid - <http://www.squid-cache.org/Doc>
+* Vagrant - <https://www.vagrantup.com>
+* X-Forwaded-For <https://en.wikipedia.org/wiki/X-Forwarded-For>
 
 Shellscript to install squid in CentOS 7 (nice and simple):
 ```bash
 #!/usr/bin/env bash
-
 # update yum
 sudo yum update -y
-
 
 # install and enable squid proxy
 sudo yum -y install squid

@@ -25,9 +25,10 @@ github_username:  booboy
 # Build settings
 markdown: kramdown
 theme: minima
+
 collections:
-#    100-days-of-code:
-#      output: true
+    homelab:
+      output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
