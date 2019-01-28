@@ -1,6 +1,6 @@
 ---
 layout: homelab
-title:  "homelab - squid proxy"
+title:  "squid proxy"
 date:  2019-01-27
 categories: homelab
 ---
