@@ -10,9 +10,17 @@ title: brendan mcdevitt
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+
   <h1>Homelab Posts</h1>
   <ul class="homelab">
     {% for post in site.homelab %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h1>Programming</h1>
+  <ul class="programming">
+    {% for post in site.programming %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}"> {{post.title }}</a></li>
     {% endfor %}
   </ul>

@@ -51,12 +51,19 @@ table {
   font: 100%;
 }
 
+hr { 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
 /*****************************************************************************/
 /*
 /* Home
 /*
 /*****************************************************************************/
 
+# posts 
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
@@ -72,6 +79,7 @@ ul.posts {
     font-size: 80%;
   }
 
+# homelab
 ul.homelab {
   list-style-type: none;
   margin-bottom: 2em;
@@ -82,6 +90,23 @@ ul.homelab {
   }
 
   ul.homelab span {
+    color: #aaa;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 80%;
+  }
+
+
+# programming
+ul.programming {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+  ul.programming li {
+    line-height: 1.75em;
+  }
+
+  ul.programming span {
     color: #aaa;
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;

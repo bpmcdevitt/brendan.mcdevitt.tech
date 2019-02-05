@@ -1,0 +1,61 @@
+---
+layout: programming
+title:  "Ruby 2.6+ Array#Difference"
+date:  2019-02-05 
+categories: programming
+---
+
+# Array#Difference - [Array#Difference](https://github.com/ruby/ruby/blob/trunk/array.c#L4450-L4563)
+I wanted to do a quick post on a new method added to ruby Array class in version 2.6. I just learned about this over the past weekend. 
+This will quickly grow to be a favorite of mine.
+
+A method to check differences in values between two arrays.
+
+#### Make arrays abc and abcdef
+
+{% highlight ruby %}
+[1] pry(main)> abc = ['a','b','c'] 
+=> ["a", "b", "c"]
+
+[2] pry(main)> abcdef = 'a', 'b', 'c', 'd', 'e', 'f'
+=> ["a", "b", "c", "d", "e", "f"]
+{% endhighlight %}
+
+
+<hr>
+
+
+#### ruby 2.5
+In versions prior, I would make a .difference method in my .pryrc file and that
+will be loaded at runtime when I run my console. You can also monkey patch it
+live in a pry console. Found this via
+[stackedoverflow](https://stackoverflow.com/questions/8639857/rails-3-how-to-get-the-difference-between-two-arrays)
+post. Here is how I would add it in a running pry session: 
+
+{% highlight ruby %}
+[17] pry(main)> class Array
+[17] pry(main)*   def difference(a)
+[17] pry(main)*     self - a | a - self
+[17] pry(main)*   end  
+[17] pry(main)* end  
+=> :difference
+
+[26] pry(main)> abcdef.difference(abc)
+=> ["d", "e", "f"]
+
+{% endhighlight %}
+
+
+<hr>
+
+
+#### ruby 2.6
+But now in ruby 2.6+, you can just use the .difference method. It is built into
+the class now.
+
+{% highlight ruby %}
+[3] pry(main)> abcdef.difference(abc)
+=> ["d", "e", "f"]
+{% endhighlight %}
+
+so nice, so easy!
