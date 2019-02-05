@@ -1,6 +1,6 @@
 ---
 layout: programming
-title:  "Ruby 2.6+ Array#Difference"
+title:  "ruby 2.6+ array#difference"
 date:  2019-02-05 
 categories: programming
 ---
@@ -17,7 +17,7 @@ A method to check differences in values between two arrays.
 [1] pry(main)> abc = ['a','b','c'] 
 => ["a", "b", "c"]
 
-[2] pry(main)> abcdef = 'a', 'b', 'c', 'd', 'e', 'f'
+[2] pry(main)> abcdef = ['a', 'b', 'c', 'd', 'e', 'f']
 => ["a", "b", "c", "d", "e", "f"]
 {% endhighlight %}
 
@@ -25,7 +25,7 @@ A method to check differences in values between two arrays.
 <hr>
 
 
-#### ruby 2.5
+#### Ruby 2.5
 In versions prior, I would make a .difference method in my .pryrc file and that
 will be loaded at runtime when I run my console. You can also monkey patch it
 live in a pry console. Found this via
@@ -49,7 +49,7 @@ post. Here is how I would add it in a running pry session:
 <hr>
 
 
-#### ruby 2.6
+#### Ruby 2.6
 But now in ruby 2.6+, you can just use the .difference method. It is built into
 the class now.
 
@@ -58,4 +58,4 @@ the class now.
 => ["d", "e", "f"]
 {% endhighlight %}
 
-so nice, so easy!
+So nice, so easy!
